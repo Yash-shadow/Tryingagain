@@ -29,7 +29,7 @@ logs:
     positions:
       filename: /tmp/positions.yaml
     scrape_configs:
-    - job_name: hello-observability
+    - job_name: app
       static_configs:
       - targets: [localhost]
         labels:

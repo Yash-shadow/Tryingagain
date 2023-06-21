@@ -1,0 +1,625 @@
+2023-06-21 07:31:26 - o.s.s.p.PostgresIntegrationTests - Starting PostgresIntegrationTests using Java 17.0.7 with PID 12496 (started by root in /home/ubuntu/Tryingagain/spring-petclinic) traceID= 
+2023-06-21 07:31:26 - o.s.s.p.PostgresIntegrationTests - The following 1 profile is active: "postgres" traceID= 
+2023-06-21 07:31:26 - o.s.b.d.c.l.DockerComposeLifecycleManager - Using Docker Compose file '/home/ubuntu/Tryingagain/spring-petclinic/docker-compose.yml' traceID= 
+2023-06-21 07:31:28 - o.s.b.docker.compose.core.DockerCli -  postgres Pulling  traceID= 
+2023-06-21 07:31:29 - o.s.b.docker.compose.core.DockerCli -  5b5fe70539cd Pulling fs layer  traceID= 
+2023-06-21 07:31:29 - o.s.b.docker.compose.core.DockerCli -  254f758dbb83 Pulling fs layer  traceID= 
+2023-06-21 07:31:29 - o.s.b.docker.compose.core.DockerCli -  a50b6f601ef0 Pulling fs layer  traceID= 
+2023-06-21 07:31:29 - o.s.b.docker.compose.core.DockerCli -  b2a96a17b000 Pulling fs layer  traceID= 
+2023-06-21 07:31:29 - o.s.b.docker.compose.core.DockerCli -  b08a8624844f Pulling fs layer  traceID= 
+2023-06-21 07:31:29 - o.s.b.docker.compose.core.DockerCli -  9fb1f8c3deef Pulling fs layer  traceID= 
+2023-06-21 07:31:29 - o.s.b.docker.compose.core.DockerCli -  fb374f351a53 Pulling fs layer  traceID= 
+2023-06-21 07:31:29 - o.s.b.docker.compose.core.DockerCli -  7b3d9f705bf0 Pulling fs layer  traceID= 
+2023-06-21 07:31:29 - o.s.b.docker.compose.core.DockerCli -  a85d8c4f987c Pulling fs layer  traceID= 
+2023-06-21 07:31:29 - o.s.b.docker.compose.core.DockerCli -  0543b0f5d286 Pulling fs layer  traceID= 
+2023-06-21 07:31:29 - o.s.b.docker.compose.core.DockerCli -  28bb5ab88d7a Pulling fs layer  traceID= 
+2023-06-21 07:31:29 - o.s.b.docker.compose.core.DockerCli -  fdb6f3d907fc Pulling fs layer  traceID= 
+2023-06-21 07:31:29 - o.s.b.docker.compose.core.DockerCli -  f06aa6280d55 Pulling fs layer  traceID= 
+2023-06-21 07:31:29 - o.s.b.docker.compose.core.DockerCli -  b2a96a17b000 Waiting  traceID= 
+2023-06-21 07:31:29 - o.s.b.docker.compose.core.DockerCli -  b08a8624844f Waiting  traceID= 
+2023-06-21 07:31:29 - o.s.b.docker.compose.core.DockerCli -  9fb1f8c3deef Waiting  traceID= 
+2023-06-21 07:31:29 - o.s.b.docker.compose.core.DockerCli -  fb374f351a53 Waiting  traceID= 
+2023-06-21 07:31:29 - o.s.b.docker.compose.core.DockerCli -  7b3d9f705bf0 Waiting  traceID= 
+2023-06-21 07:31:29 - o.s.b.docker.compose.core.DockerCli -  a85d8c4f987c Waiting  traceID= 
+2023-06-21 07:31:29 - o.s.b.docker.compose.core.DockerCli -  0543b0f5d286 Waiting  traceID= 
+2023-06-21 07:31:29 - o.s.b.docker.compose.core.DockerCli -  28bb5ab88d7a Waiting  traceID= 
+2023-06-21 07:31:29 - o.s.b.docker.compose.core.DockerCli -  fdb6f3d907fc Waiting  traceID= 
+2023-06-21 07:31:29 - o.s.b.docker.compose.core.DockerCli -  f06aa6280d55 Waiting  traceID= 
+2023-06-21 07:31:29 - o.s.b.docker.compose.core.DockerCli -  254f758dbb83 Downloading [=============================>                     ]     720B/1.209kB traceID= 
+2023-06-21 07:31:29 - o.s.b.docker.compose.core.DockerCli -  254f758dbb83 Downloading [==================================================>]  1.209kB/1.209kB traceID= 
+2023-06-21 07:31:29 - o.s.b.docker.compose.core.DockerCli -  254f758dbb83 Verifying Checksum  traceID= 
+2023-06-21 07:31:29 - o.s.b.docker.compose.core.DockerCli -  254f758dbb83 Download complete  traceID= 
+2023-06-21 07:31:29 - o.s.b.docker.compose.core.DockerCli -  a50b6f601ef0 Downloading [>                                                  ]  47.11kB/4.619MB traceID= 
+2023-06-21 07:31:29 - o.s.b.docker.compose.core.DockerCli -  5b5fe70539cd Downloading [>                                                  ]  294.9kB/29.12MB traceID= 
+2023-06-21 07:31:29 - o.s.b.docker.compose.core.DockerCli -  a50b6f601ef0 Downloading [========>                                          ]  785.7kB/4.619MB traceID= 
+2023-06-21 07:31:29 - o.s.b.docker.compose.core.DockerCli -  5b5fe70539cd Downloading [===>                                               ]  2.076MB/29.12MB traceID= 
+2023-06-21 07:31:29 - o.s.b.docker.compose.core.DockerCli -  a50b6f601ef0 Downloading [==========================>                        ]  2.469MB/4.619MB traceID= 
+2023-06-21 07:31:29 - o.s.b.docker.compose.core.DockerCli -  5b5fe70539cd Downloading [=======>                                           ]   4.16MB/29.12MB traceID= 
+2023-06-21 07:31:29 - o.s.b.docker.compose.core.DockerCli -  a50b6f601ef0 Verifying Checksum  traceID= 
+2023-06-21 07:31:29 - o.s.b.docker.compose.core.DockerCli -  a50b6f601ef0 Download complete  traceID= 
+2023-06-21 07:31:29 - o.s.b.docker.compose.core.DockerCli -  b2a96a17b000 Downloading [>                                                  ]  15.06kB/1.445MB traceID= 
+2023-06-21 07:31:29 - o.s.b.docker.compose.core.DockerCli -  5b5fe70539cd Downloading [===========>                                       ]  6.839MB/29.12MB traceID= 
+2023-06-21 07:31:29 - o.s.b.docker.compose.core.DockerCli -  b2a96a17b000 Downloading [===============>                                   ]  442.4kB/1.445MB traceID= 
+2023-06-21 07:31:29 - o.s.b.docker.compose.core.DockerCli -  b2a96a17b000 Verifying Checksum  traceID= 
+2023-06-21 07:31:29 - o.s.b.docker.compose.core.DockerCli -  b2a96a17b000 Download complete  traceID= 
+2023-06-21 07:31:29 - o.s.b.docker.compose.core.DockerCli -  5b5fe70539cd Downloading [==============>                                    ]  8.321MB/29.12MB traceID= 
+2023-06-21 07:31:30 - o.s.b.docker.compose.core.DockerCli -  b08a8624844f Downloading [>                                                  ]  82.45kB/8.065MB traceID= 
+2023-06-21 07:31:30 - o.s.b.docker.compose.core.DockerCli -  5b5fe70539cd Downloading [================>                                  ]  9.833MB/29.12MB traceID= 
+2023-06-21 07:31:30 - o.s.b.docker.compose.core.DockerCli -  5b5fe70539cd Downloading [====================>                              ]  12.22MB/29.12MB traceID= 
+2023-06-21 07:31:30 - o.s.b.docker.compose.core.DockerCli -  b08a8624844f Downloading [======>                                            ]    983kB/8.065MB traceID= 
+2023-06-21 07:31:30 - o.s.b.docker.compose.core.DockerCli -  9fb1f8c3deef Downloading [>                                                  ]  15.06kB/1.406MB traceID= 
+2023-06-21 07:31:30 - o.s.b.docker.compose.core.DockerCli -  5b5fe70539cd Downloading [============================>                      ]  16.66MB/29.12MB traceID= 
+2023-06-21 07:31:30 - o.s.b.docker.compose.core.DockerCli -  b08a8624844f Downloading [===============>                                   ]  2.476MB/8.065MB traceID= 
+2023-06-21 07:31:30 - o.s.b.docker.compose.core.DockerCli -  9fb1f8c3deef Downloading [=================================================> ]  1.404MB/1.406MB traceID= 
+2023-06-21 07:31:30 - o.s.b.docker.compose.core.DockerCli -  9fb1f8c3deef Verifying Checksum  traceID= 
+2023-06-21 07:31:30 - o.s.b.docker.compose.core.DockerCli -  9fb1f8c3deef Download complete  traceID= 
+2023-06-21 07:31:30 - o.s.b.docker.compose.core.DockerCli -  5b5fe70539cd Downloading [===================================>               ]  20.54MB/29.12MB traceID= 
+2023-06-21 07:31:30 - o.s.b.docker.compose.core.DockerCli -  b08a8624844f Downloading [==========================>                        ]  4.291MB/8.065MB traceID= 
+2023-06-21 07:31:30 - o.s.b.docker.compose.core.DockerCli -  b08a8624844f Downloading [==================================>                ]  5.528MB/8.065MB traceID= 
+2023-06-21 07:31:30 - o.s.b.docker.compose.core.DockerCli -  5b5fe70539cd Downloading [=====================================>             ]  22.04MB/29.12MB traceID= 
+2023-06-21 07:31:30 - o.s.b.docker.compose.core.DockerCli -  5b5fe70539cd Downloading [=======================================>           ]  22.94MB/29.12MB traceID= 
+2023-06-21 07:31:30 - o.s.b.docker.compose.core.DockerCli -  b08a8624844f Downloading [=======================================>           ]  6.351MB/8.065MB traceID= 
+2023-06-21 07:31:30 - o.s.b.docker.compose.core.DockerCli -  b08a8624844f Verifying Checksum  traceID= 
+2023-06-21 07:31:30 - o.s.b.docker.compose.core.DockerCli -  b08a8624844f Download complete  traceID= 
+2023-06-21 07:31:30 - o.s.b.docker.compose.core.DockerCli -  5b5fe70539cd Downloading [===========================================>       ]  25.61MB/29.12MB traceID= 
+2023-06-21 07:31:30 - o.s.b.docker.compose.core.DockerCli -  5b5fe70539cd Verifying Checksum  traceID= 
+2023-06-21 07:31:30 - o.s.b.docker.compose.core.DockerCli -  5b5fe70539cd Download complete  traceID= 
+2023-06-21 07:31:30 - o.s.b.docker.compose.core.DockerCli -  fb374f351a53 Downloading [==================================================>]     149B/149B traceID= 
+2023-06-21 07:31:30 - o.s.b.docker.compose.core.DockerCli -  fb374f351a53 Verifying Checksum  traceID= 
+2023-06-21 07:31:30 - o.s.b.docker.compose.core.DockerCli -  fb374f351a53 Download complete  traceID= 
+2023-06-21 07:31:30 - o.s.b.docker.compose.core.DockerCli -  5b5fe70539cd Extracting [>                                                  ]  294.9kB/29.12MB traceID= 
+2023-06-21 07:31:30 - o.s.b.docker.compose.core.DockerCli -  5b5fe70539cd Extracting [=====>                                             ]  2.949MB/29.12MB traceID= 
+2023-06-21 07:31:31 - o.s.b.docker.compose.core.DockerCli -  7b3d9f705bf0 Downloading [===========>                                       ]     720B/3.194kB traceID= 
+2023-06-21 07:31:31 - o.s.b.docker.compose.core.DockerCli -  7b3d9f705bf0 Downloading [==================================================>]  3.194kB/3.194kB traceID= 
+2023-06-21 07:31:31 - o.s.b.docker.compose.core.DockerCli -  7b3d9f705bf0 Verifying Checksum  traceID= 
+2023-06-21 07:31:31 - o.s.b.docker.compose.core.DockerCli -  7b3d9f705bf0 Download complete  traceID= 
+2023-06-21 07:31:31 - o.s.b.docker.compose.core.DockerCli -  5b5fe70539cd Extracting [=========>                                         ]  5.308MB/29.12MB traceID= 
+2023-06-21 07:31:31 - o.s.b.docker.compose.core.DockerCli -  0543b0f5d286 Downloading [=======>                                           ]  1.369kB/9.776kB traceID= 
+2023-06-21 07:31:31 - o.s.b.docker.compose.core.DockerCli -  0543b0f5d286 Downloading [==================================================>]  9.776kB/9.776kB traceID= 
+2023-06-21 07:31:31 - o.s.b.docker.compose.core.DockerCli -  0543b0f5d286 Verifying Checksum  traceID= 
+2023-06-21 07:31:31 - o.s.b.docker.compose.core.DockerCli -  0543b0f5d286 Download complete  traceID= 
+2023-06-21 07:31:31 - o.s.b.docker.compose.core.DockerCli -  a85d8c4f987c Downloading [>                                                  ]  540.7kB/104.2MB traceID= 
+2023-06-21 07:31:31 - o.s.b.docker.compose.core.DockerCli -  5b5fe70539cd Extracting [=============>                                     ]  7.668MB/29.12MB traceID= 
+2023-06-21 07:31:31 - o.s.b.docker.compose.core.DockerCli -  a85d8c4f987c Downloading [===>                                               ]  6.417MB/104.2MB traceID= 
+2023-06-21 07:31:31 - o.s.b.docker.compose.core.DockerCli -  5b5fe70539cd Extracting [===============>                                   ]  9.142MB/29.12MB traceID= 
+2023-06-21 07:31:31 - o.s.b.docker.compose.core.DockerCli -  a85d8c4f987c Downloading [=====>                                             ]  10.71MB/104.2MB traceID= 
+2023-06-21 07:31:31 - o.s.b.docker.compose.core.DockerCli -  28bb5ab88d7a Downloading [==================================================>]     130B/130B traceID= 
+2023-06-21 07:31:31 - o.s.b.docker.compose.core.DockerCli -  28bb5ab88d7a Verifying Checksum  traceID= 
+2023-06-21 07:31:31 - o.s.b.docker.compose.core.DockerCli -  28bb5ab88d7a Download complete  traceID= 
+2023-06-21 07:31:31 - o.s.b.docker.compose.core.DockerCli -  fdb6f3d907fc Downloading [==================================================>]     199B/199B traceID= 
+2023-06-21 07:31:31 - o.s.b.docker.compose.core.DockerCli -  fdb6f3d907fc Verifying Checksum  traceID= 
+2023-06-21 07:31:31 - o.s.b.docker.compose.core.DockerCli -  fdb6f3d907fc Download complete  traceID= 
+2023-06-21 07:31:31 - o.s.b.docker.compose.core.DockerCli -  a85d8c4f987c Downloading [=======>                                           ]  16.62MB/104.2MB traceID= 
+2023-06-21 07:31:31 - o.s.b.docker.compose.core.DockerCli -  5b5fe70539cd Extracting [================>                                  ]  9.732MB/29.12MB traceID= 
+2023-06-21 07:31:31 - o.s.b.docker.compose.core.DockerCli -  a85d8c4f987c Downloading [==========>                                        ]  22.54MB/104.2MB traceID= 
+2023-06-21 07:31:31 - o.s.b.docker.compose.core.DockerCli -  5b5fe70539cd Extracting [==================>                                ]  10.62MB/29.12MB traceID= 
+2023-06-21 07:31:31 - o.s.b.docker.compose.core.DockerCli -  a85d8c4f987c Downloading [=============>                                     ]  27.92MB/104.2MB traceID= 
+2023-06-21 07:31:31 - o.s.b.docker.compose.core.DockerCli -  5b5fe70539cd Extracting [=====================>                             ]  12.39MB/29.12MB traceID= 
+2023-06-21 07:31:31 - o.s.b.docker.compose.core.DockerCli -  f06aa6280d55 Downloading [=======>                                           ]     720B/4.784kB traceID= 
+2023-06-21 07:31:31 - o.s.b.docker.compose.core.DockerCli -  f06aa6280d55 Downloading [==================================================>]  4.784kB/4.784kB traceID= 
+2023-06-21 07:31:31 - o.s.b.docker.compose.core.DockerCli -  f06aa6280d55 Verifying Checksum  traceID= 
+2023-06-21 07:31:31 - o.s.b.docker.compose.core.DockerCli -  f06aa6280d55 Download complete  traceID= 
+2023-06-21 07:31:31 - o.s.b.docker.compose.core.DockerCli -  a85d8c4f987c Downloading [================>                                  ]   35.4MB/104.2MB traceID= 
+2023-06-21 07:31:31 - o.s.b.docker.compose.core.DockerCli -  5b5fe70539cd Extracting [=========================>                         ]  14.75MB/29.12MB traceID= 
+2023-06-21 07:31:31 - o.s.b.docker.compose.core.DockerCli -  a85d8c4f987c Downloading [=====================>                             ]  44.53MB/104.2MB traceID= 
+2023-06-21 07:31:31 - o.s.b.docker.compose.core.DockerCli -  5b5fe70539cd Extracting [=============================>                     ]   17.1MB/29.12MB traceID= 
+2023-06-21 07:31:31 - o.s.b.docker.compose.core.DockerCli -  a85d8c4f987c Downloading [=========================>                         ]  53.68MB/104.2MB traceID= 
+2023-06-21 07:31:31 - o.s.b.docker.compose.core.DockerCli -  5b5fe70539cd Extracting [================================>                  ]  19.17MB/29.12MB traceID= 
+2023-06-21 07:31:32 - o.s.b.docker.compose.core.DockerCli -  a85d8c4f987c Downloading [==============================>                    ]  63.36MB/104.2MB traceID= 
+2023-06-21 07:31:32 - o.s.b.docker.compose.core.DockerCli -  5b5fe70539cd Extracting [====================================>              ]  21.23MB/29.12MB traceID= 
+2023-06-21 07:31:32 - o.s.b.docker.compose.core.DockerCli -  a85d8c4f987c Downloading [==================================>                ]  72.48MB/104.2MB traceID= 
+2023-06-21 07:31:32 - o.s.b.docker.compose.core.DockerCli -  5b5fe70539cd Extracting [=========================================>         ]  23.89MB/29.12MB traceID= 
+2023-06-21 07:31:32 - o.s.b.docker.compose.core.DockerCli -  a85d8c4f987c Downloading [======================================>            ]  81.06MB/104.2MB traceID= 
+2023-06-21 07:31:32 - o.s.b.docker.compose.core.DockerCli -  a85d8c4f987c Downloading [===========================================>       ]  90.74MB/104.2MB traceID= 
+2023-06-21 07:31:32 - o.s.b.docker.compose.core.DockerCli -  5b5fe70539cd Extracting [==========================================>        ]  24.77MB/29.12MB traceID= 
+2023-06-21 07:31:32 - o.s.b.docker.compose.core.DockerCli -  a85d8c4f987c Downloading [===============================================>   ]  99.31MB/104.2MB traceID= 
+2023-06-21 07:31:32 - o.s.b.docker.compose.core.DockerCli -  a85d8c4f987c Verifying Checksum  traceID= 
+2023-06-21 07:31:32 - o.s.b.docker.compose.core.DockerCli -  a85d8c4f987c Download complete  traceID= 
+2023-06-21 07:31:32 - o.s.b.docker.compose.core.DockerCli -  5b5fe70539cd Extracting [==============================================>    ]  26.84MB/29.12MB traceID= 
+2023-06-21 07:31:32 - o.s.b.docker.compose.core.DockerCli -  5b5fe70539cd Extracting [================================================>  ]  28.02MB/29.12MB traceID= 
+2023-06-21 07:31:32 - o.s.b.docker.compose.core.DockerCli -  5b5fe70539cd Extracting [================================================>  ]  28.31MB/29.12MB traceID= 
+2023-06-21 07:31:33 - o.s.b.docker.compose.core.DockerCli -  5b5fe70539cd Extracting [==================================================>]  29.12MB/29.12MB traceID= 
+2023-06-21 07:31:33 - o.s.b.docker.compose.core.DockerCli -  5b5fe70539cd Pull complete  traceID= 
+2023-06-21 07:31:33 - o.s.b.docker.compose.core.DockerCli -  254f758dbb83 Extracting [==================================================>]  1.209kB/1.209kB traceID= 
+2023-06-21 07:31:33 - o.s.b.docker.compose.core.DockerCli -  254f758dbb83 Extracting [==================================================>]  1.209kB/1.209kB traceID= 
+2023-06-21 07:31:33 - o.s.b.docker.compose.core.DockerCli -  254f758dbb83 Pull complete  traceID= 
+2023-06-21 07:31:33 - o.s.b.docker.compose.core.DockerCli -  a50b6f601ef0 Extracting [>                                                  ]  65.54kB/4.619MB traceID= 
+2023-06-21 07:31:33 - o.s.b.docker.compose.core.DockerCli -  a50b6f601ef0 Extracting [=========================================>         ]  3.867MB/4.619MB traceID= 
+2023-06-21 07:31:33 - o.s.b.docker.compose.core.DockerCli -  a50b6f601ef0 Extracting [==================================================>]  4.619MB/4.619MB traceID= 
+2023-06-21 07:31:33 - o.s.b.docker.compose.core.DockerCli -  a50b6f601ef0 Pull complete  traceID= 
+2023-06-21 07:31:33 - o.s.b.docker.compose.core.DockerCli -  b2a96a17b000 Extracting [=>                                                 ]  32.77kB/1.445MB traceID= 
+2023-06-21 07:31:33 - o.s.b.docker.compose.core.DockerCli -  b2a96a17b000 Extracting [==================================================>]  1.445MB/1.445MB traceID= 
+2023-06-21 07:31:33 - o.s.b.docker.compose.core.DockerCli -  b2a96a17b000 Pull complete  traceID= 
+2023-06-21 07:31:33 - o.s.b.docker.compose.core.DockerCli -  b08a8624844f Extracting [>                                                  ]   98.3kB/8.065MB traceID= 
+2023-06-21 07:31:33 - o.s.b.docker.compose.core.DockerCli -  b08a8624844f Extracting [=======================>                           ]  3.736MB/8.065MB traceID= 
+2023-06-21 07:31:33 - o.s.b.docker.compose.core.DockerCli -  b08a8624844f Extracting [===============================>                   ]  5.014MB/8.065MB traceID= 
+2023-06-21 07:31:33 - o.s.b.docker.compose.core.DockerCli -  b08a8624844f Extracting [=========================================>         ]  6.685MB/8.065MB traceID= 
+2023-06-21 07:31:33 - o.s.b.docker.compose.core.DockerCli -  b08a8624844f Extracting [==================================================>]  8.065MB/8.065MB traceID= 
+2023-06-21 07:31:33 - o.s.b.docker.compose.core.DockerCli -  b08a8624844f Pull complete  traceID= 
+2023-06-21 07:31:33 - o.s.b.docker.compose.core.DockerCli -  9fb1f8c3deef Extracting [=>                                                 ]  32.77kB/1.406MB traceID= 
+2023-06-21 07:31:33 - o.s.b.docker.compose.core.DockerCli -  9fb1f8c3deef Extracting [==================================================>]  1.406MB/1.406MB traceID= 
+2023-06-21 07:31:33 - o.s.b.docker.compose.core.DockerCli -  9fb1f8c3deef Extracting [==================================================>]  1.406MB/1.406MB traceID= 
+2023-06-21 07:31:33 - o.s.b.docker.compose.core.DockerCli -  9fb1f8c3deef Pull complete  traceID= 
+2023-06-21 07:31:33 - o.s.b.docker.compose.core.DockerCli -  fb374f351a53 Extracting [==================================================>]     149B/149B traceID= 
+2023-06-21 07:31:33 - o.s.b.docker.compose.core.DockerCli -  fb374f351a53 Extracting [==================================================>]     149B/149B traceID= 
+2023-06-21 07:31:33 - o.s.b.docker.compose.core.DockerCli -  fb374f351a53 Pull complete  traceID= 
+2023-06-21 07:31:33 - o.s.b.docker.compose.core.DockerCli -  7b3d9f705bf0 Extracting [==================================================>]  3.194kB/3.194kB traceID= 
+2023-06-21 07:31:33 - o.s.b.docker.compose.core.DockerCli -  7b3d9f705bf0 Extracting [==================================================>]  3.194kB/3.194kB traceID= 
+2023-06-21 07:31:33 - o.s.b.docker.compose.core.DockerCli -  7b3d9f705bf0 Pull complete  traceID= 
+2023-06-21 07:31:34 - o.s.b.docker.compose.core.DockerCli -  a85d8c4f987c Extracting [>                                                  ]  557.1kB/104.2MB traceID= 
+2023-06-21 07:31:34 - o.s.b.docker.compose.core.DockerCli -  a85d8c4f987c Extracting [==>                                                ]  4.456MB/104.2MB traceID= 
+2023-06-21 07:31:34 - o.s.b.docker.compose.core.DockerCli -  a85d8c4f987c Extracting [====>                                              ]  8.356MB/104.2MB traceID= 
+2023-06-21 07:31:34 - o.s.b.docker.compose.core.DockerCli -  a85d8c4f987c Extracting [=====>                                             ]   11.7MB/104.2MB traceID= 
+2023-06-21 07:31:34 - o.s.b.docker.compose.core.DockerCli -  a85d8c4f987c Extracting [======>                                            ]  14.48MB/104.2MB traceID= 
+2023-06-21 07:31:34 - o.s.b.docker.compose.core.DockerCli -  a85d8c4f987c Extracting [========>                                          ]  16.71MB/104.2MB traceID= 
+2023-06-21 07:31:34 - o.s.b.docker.compose.core.DockerCli -  a85d8c4f987c Extracting [=========>                                         ]  18.94MB/104.2MB traceID= 
+2023-06-21 07:31:34 - o.s.b.docker.compose.core.DockerCli -  a85d8c4f987c Extracting [==========>                                        ]  21.73MB/104.2MB traceID= 
+2023-06-21 07:31:34 - o.s.b.docker.compose.core.DockerCli -  a85d8c4f987c Extracting [===========>                                       ]  23.95MB/104.2MB traceID= 
+2023-06-21 07:31:35 - o.s.b.docker.compose.core.DockerCli -  a85d8c4f987c Extracting [============>                                      ]  26.18MB/104.2MB traceID= 
+2023-06-21 07:31:35 - o.s.b.docker.compose.core.DockerCli -  a85d8c4f987c Extracting [==============>                                    ]  30.08MB/104.2MB traceID= 
+2023-06-21 07:31:35 - o.s.b.docker.compose.core.DockerCli -  a85d8c4f987c Extracting [================>                                  ]  33.98MB/104.2MB traceID= 
+2023-06-21 07:31:35 - o.s.b.docker.compose.core.DockerCli -  a85d8c4f987c Extracting [=================>                                 ]  36.77MB/104.2MB traceID= 
+2023-06-21 07:31:35 - o.s.b.docker.compose.core.DockerCli -  a85d8c4f987c Extracting [===================>                               ]  40.11MB/104.2MB traceID= 
+2023-06-21 07:31:35 - o.s.b.docker.compose.core.DockerCli -  a85d8c4f987c Extracting [====================>                              ]  43.45MB/104.2MB traceID= 
+2023-06-21 07:31:35 - o.s.b.docker.compose.core.DockerCli -  a85d8c4f987c Extracting [======================>                            ]  47.35MB/104.2MB traceID= 
+2023-06-21 07:31:35 - o.s.b.docker.compose.core.DockerCli -  a85d8c4f987c Extracting [=======================>                           ]  49.58MB/104.2MB traceID= 
+2023-06-21 07:31:35 - o.s.b.docker.compose.core.DockerCli -  a85d8c4f987c Extracting [========================>                          ]  51.25MB/104.2MB traceID= 
+2023-06-21 07:31:36 - o.s.b.docker.compose.core.DockerCli -  a85d8c4f987c Extracting [=========================>                         ]  52.36MB/104.2MB traceID= 
+2023-06-21 07:31:36 - o.s.b.docker.compose.core.DockerCli -  a85d8c4f987c Extracting [=========================>                         ]  54.03MB/104.2MB traceID= 
+2023-06-21 07:31:36 - o.s.b.docker.compose.core.DockerCli -  a85d8c4f987c Extracting [===========================>                       ]  56.82MB/104.2MB traceID= 
+2023-06-21 07:31:36 - o.s.b.docker.compose.core.DockerCli -  a85d8c4f987c Extracting [============================>                      ]  60.16MB/104.2MB traceID= 
+2023-06-21 07:31:36 - o.s.b.docker.compose.core.DockerCli -  a85d8c4f987c Extracting [==============================>                    ]  64.06MB/104.2MB traceID= 
+2023-06-21 07:31:36 - o.s.b.docker.compose.core.DockerCli -  a85d8c4f987c Extracting [================================>                  ]  67.96MB/104.2MB traceID= 
+2023-06-21 07:31:36 - o.s.b.docker.compose.core.DockerCli -  a85d8c4f987c Extracting [=================================>                 ]  70.75MB/104.2MB traceID= 
+2023-06-21 07:31:36 - o.s.b.docker.compose.core.DockerCli -  a85d8c4f987c Extracting [===================================>               ]  74.09MB/104.2MB traceID= 
+2023-06-21 07:31:37 - o.s.b.docker.compose.core.DockerCli -  a85d8c4f987c Extracting [=====================================>             ]  77.43MB/104.2MB traceID= 
+2023-06-21 07:31:37 - o.s.b.docker.compose.core.DockerCli -  a85d8c4f987c Extracting [=======================================>           ]  81.33MB/104.2MB traceID= 
+2023-06-21 07:31:37 - o.s.b.docker.compose.core.DockerCli -  a85d8c4f987c Extracting [========================================>          ]  85.23MB/104.2MB traceID= 
+2023-06-21 07:31:37 - o.s.b.docker.compose.core.DockerCli -  a85d8c4f987c Extracting [==========================================>        ]  88.57MB/104.2MB traceID= 
+2023-06-21 07:31:37 - o.s.b.docker.compose.core.DockerCli -  a85d8c4f987c Extracting [===========================================>       ]  90.24MB/104.2MB traceID= 
+2023-06-21 07:31:37 - o.s.b.docker.compose.core.DockerCli -  a85d8c4f987c Extracting [============================================>      ]  93.03MB/104.2MB traceID= 
+2023-06-21 07:31:37 - o.s.b.docker.compose.core.DockerCli -  a85d8c4f987c Extracting [=============================================>     ]   94.7MB/104.2MB traceID= 
+2023-06-21 07:31:37 - o.s.b.docker.compose.core.DockerCli -  a85d8c4f987c Extracting [==============================================>    ]  96.93MB/104.2MB traceID= 
+2023-06-21 07:31:37 - o.s.b.docker.compose.core.DockerCli -  a85d8c4f987c Extracting [===============================================>   ]   98.6MB/104.2MB traceID= 
+2023-06-21 07:31:38 - o.s.b.docker.compose.core.DockerCli -  a85d8c4f987c Extracting [===============================================>   ]  99.71MB/104.2MB traceID= 
+2023-06-21 07:31:38 - o.s.b.docker.compose.core.DockerCli -  a85d8c4f987c Extracting [================================================>  ]  100.8MB/104.2MB traceID= 
+2023-06-21 07:31:38 - o.s.b.docker.compose.core.DockerCli -  a85d8c4f987c Extracting [=================================================> ]  102.5MB/104.2MB traceID= 
+2023-06-21 07:31:38 - o.s.b.docker.compose.core.DockerCli -  a85d8c4f987c Extracting [=================================================> ]  103.6MB/104.2MB traceID= 
+2023-06-21 07:31:38 - o.s.b.docker.compose.core.DockerCli -  a85d8c4f987c Extracting [==================================================>]  104.2MB/104.2MB traceID= 
+2023-06-21 07:31:38 - o.s.b.docker.compose.core.DockerCli -  a85d8c4f987c Pull complete  traceID= 
+2023-06-21 07:31:38 - o.s.b.docker.compose.core.DockerCli -  0543b0f5d286 Extracting [==================================================>]  9.776kB/9.776kB traceID= 
+2023-06-21 07:31:38 - o.s.b.docker.compose.core.DockerCli -  0543b0f5d286 Extracting [==================================================>]  9.776kB/9.776kB traceID= 
+2023-06-21 07:31:38 - o.s.b.docker.compose.core.DockerCli -  0543b0f5d286 Pull complete  traceID= 
+2023-06-21 07:31:38 - o.s.b.docker.compose.core.DockerCli -  28bb5ab88d7a Extracting [==================================================>]     130B/130B traceID= 
+2023-06-21 07:31:38 - o.s.b.docker.compose.core.DockerCli -  28bb5ab88d7a Extracting [==================================================>]     130B/130B traceID= 
+2023-06-21 07:31:38 - o.s.b.docker.compose.core.DockerCli -  28bb5ab88d7a Pull complete  traceID= 
+2023-06-21 07:31:38 - o.s.b.docker.compose.core.DockerCli -  fdb6f3d907fc Extracting [==================================================>]     199B/199B traceID= 
+2023-06-21 07:31:38 - o.s.b.docker.compose.core.DockerCli -  fdb6f3d907fc Extracting [==================================================>]     199B/199B traceID= 
+2023-06-21 07:31:38 - o.s.b.docker.compose.core.DockerCli -  fdb6f3d907fc Pull complete  traceID= 
+2023-06-21 07:31:38 - o.s.b.docker.compose.core.DockerCli -  f06aa6280d55 Extracting [==================================================>]  4.784kB/4.784kB traceID= 
+2023-06-21 07:31:38 - o.s.b.docker.compose.core.DockerCli -  f06aa6280d55 Extracting [==================================================>]  4.784kB/4.784kB traceID= 
+2023-06-21 07:31:38 - o.s.b.docker.compose.core.DockerCli -  f06aa6280d55 Pull complete  traceID= 
+2023-06-21 07:31:38 - o.s.b.docker.compose.core.DockerCli -  postgres Pulled  traceID= 
+2023-06-21 07:31:38 - o.s.b.docker.compose.core.DockerCli -  Network spring-petclinic_default  Creating traceID= 
+2023-06-21 07:31:38 - o.s.b.docker.compose.core.DockerCli -  Network spring-petclinic_default  Created traceID= 
+2023-06-21 07:31:38 - o.s.b.docker.compose.core.DockerCli -  Container spring-petclinic-postgres-1  Creating traceID= 
+2023-06-21 07:31:40 - o.s.b.docker.compose.core.DockerCli -  Container spring-petclinic-postgres-1  Created traceID= 
+2023-06-21 07:31:40 - o.s.b.docker.compose.core.DockerCli -  Container spring-petclinic-postgres-1  Starting traceID= 
+2023-06-21 07:31:40 - o.s.b.docker.compose.core.DockerCli -  Container spring-petclinic-postgres-1  Started traceID= 
+2023-06-21 07:31:40 - o.s.b.docker.compose.core.DockerCli -  Container spring-petclinic-postgres-1  Waiting traceID= 
+2023-06-21 07:31:41 - o.s.b.docker.compose.core.DockerCli -  Container spring-petclinic-postgres-1  Healthy traceID= 
+2023-06-21 07:31:46 - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode. traceID= 
+2023-06-21 07:31:46 - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 163 ms. Found 2 JPA repository interfaces. traceID= 
+2023-06-21 07:31:50 - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 0 (http) traceID= 
+2023-06-21 07:31:50 - o.a.catalina.core.StandardService - Starting service [Tomcat] traceID= 
+2023-06-21 07:31:50 - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8] traceID= 
+2023-06-21 07:31:50 - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext traceID= 
+2023-06-21 07:31:50 - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 7868 ms traceID= 
+2023-06-21 07:31:51 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting... traceID= 
+2023-06-21 07:31:52 - com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@efba38a traceID= 
+2023-06-21 07:31:52 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed. traceID= 
+2023-06-21 07:31:52 - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default] traceID= 
+2023-06-21 07:31:53 - org.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.2.Final traceID= 
+2023-06-21 07:31:53 - org.hibernate.cfg.Environment - HHH000406: Using bytecode reflection optimizer traceID= 
+2023-06-21 07:31:53 - o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy traceID= 
+2023-06-21 07:31:54 - o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer traceID= 
+2023-06-21 07:31:54 - org.hibernate.orm.dialect - HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@1708f10b traceID= 
+2023-06-21 07:31:55 - o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy traceID= 
+2023-06-21 07:31:58 - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] traceID= 
+2023-06-21 07:31:58 - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default' traceID= 
+2023-06-21 07:31:59 - o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used. traceID= 
+2023-06-21 07:32:06 - o.s.b.a.e.web.EndpointLinksResolver - Exposing 24 endpoint(s) beneath base path '/actuator' traceID= 
+2023-06-21 07:32:07 - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 35307 (http) with context path '' traceID= 
+2023-06-21 07:32:07 - o.s.s.p.PostgresIntegrationTests - Started PostgresIntegrationTests in 42.221 seconds (process running for 45.866) traceID= 
+2023-06-21 07:32:09 - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet' traceID= 
+2023-06-21 07:32:09 - o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet' traceID= 
+2023-06-21 07:32:09 - o.s.web.servlet.DispatcherServlet - Completed initialization in 12 ms traceID= 
+2023-06-21 07:32:12 - o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [org.springframework.samples.petclinic.service.ClinicServiceTests]: ClinicServiceTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration. traceID= 
+2023-06-21 07:32:12 - o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration org.springframework.samples.petclinic.PetClinicApplication for test class org.springframework.samples.petclinic.service.ClinicServiceTests traceID= 
+2023-06-21 07:32:12 - o.s.s.p.service.ClinicServiceTests - Starting ClinicServiceTests using Java 17.0.7 with PID 12496 (started by root in /home/ubuntu/Tryingagain/spring-petclinic) traceID= 
+2023-06-21 07:32:12 - o.s.s.p.service.ClinicServiceTests - No active profile set, falling back to 1 default profile: "default" traceID= 
+2023-06-21 07:32:12 - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode. traceID= 
+2023-06-21 07:32:12 - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 38 ms. Found 2 JPA repository interfaces. traceID= 
+2023-06-21 07:32:12 - com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting... traceID= 
+2023-06-21 07:32:13 - com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Added connection conn0: url=jdbc:h2:mem:9d93e5fb-0623-4f83-a631-270b8f021549 user=SA traceID= 
+2023-06-21 07:32:13 - com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed. traceID= 
+2023-06-21 07:32:13 - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default] traceID= 
+2023-06-21 07:32:13 - o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy traceID= 
+2023-06-21 07:32:13 - o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer traceID= 
+2023-06-21 07:32:13 - org.hibernate.orm.dialect - HHH035001: Using dialect: org.hibernate.dialect.H2Dialect, version: 2.1.214 traceID= 
+2023-06-21 07:32:14 - o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy traceID= 
+2023-06-21 07:32:14 - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] traceID= 
+2023-06-21 07:32:14 - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default' traceID= 
+2023-06-21 07:32:14 - o.s.s.p.service.ClinicServiceTests - Started ClinicServiceTests in 2.619 seconds (process running for 53.151) traceID= 
+2023-06-21 07:32:15 - o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [org.springframework.samples.petclinic.owner.PetControllerTests]: PetControllerTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration. traceID= 
+2023-06-21 07:32:16 - o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration org.springframework.samples.petclinic.PetClinicApplication for test class org.springframework.samples.petclinic.owner.PetControllerTests traceID= 
+2023-06-21 07:32:16 - o.s.s.p.owner.PetControllerTests - Starting PetControllerTests using Java 17.0.7 with PID 12496 (started by root in /home/ubuntu/Tryingagain/spring-petclinic) traceID= 
+2023-06-21 07:32:16 - o.s.s.p.owner.PetControllerTests - No active profile set, falling back to 1 default profile: "default" traceID= 
+2023-06-21 07:32:17 - o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' traceID= 
+2023-06-21 07:32:17 - o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' traceID= 
+2023-06-21 07:32:17 - o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms traceID= 
+2023-06-21 07:32:18 - o.s.s.p.owner.PetControllerTests - Started PetControllerTests in 2.073 seconds (process running for 56.476) traceID= 
+2023-06-21 07:32:19 - o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [org.springframework.samples.petclinic.owner.OwnerControllerTests]: OwnerControllerTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration. traceID= 
+2023-06-21 07:32:19 - o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration org.springframework.samples.petclinic.PetClinicApplication for test class org.springframework.samples.petclinic.owner.OwnerControllerTests traceID= 
+2023-06-21 07:32:19 - o.s.s.p.owner.OwnerControllerTests - Starting OwnerControllerTests using Java 17.0.7 with PID 12496 (started by root in /home/ubuntu/Tryingagain/spring-petclinic) traceID= 
+2023-06-21 07:32:19 - o.s.s.p.owner.OwnerControllerTests - No active profile set, falling back to 1 default profile: "default" traceID= 
+2023-06-21 07:32:20 - o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' traceID= 
+2023-06-21 07:32:20 - o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' traceID= 
+2023-06-21 07:32:20 - o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms traceID= 
+2023-06-21 07:32:20 - o.s.s.p.owner.OwnerControllerTests - Started OwnerControllerTests in 1.191 seconds (process running for 58.784) traceID= 
+2023-06-21 07:32:21 - o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [org.springframework.samples.petclinic.owner.VisitControllerTests]: VisitControllerTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration. traceID= 
+2023-06-21 07:32:21 - o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration org.springframework.samples.petclinic.PetClinicApplication for test class org.springframework.samples.petclinic.owner.VisitControllerTests traceID= 
+2023-06-21 07:32:21 - o.s.s.p.owner.VisitControllerTests - Starting VisitControllerTests using Java 17.0.7 with PID 12496 (started by root in /home/ubuntu/Tryingagain/spring-petclinic) traceID= 
+2023-06-21 07:32:21 - o.s.s.p.owner.VisitControllerTests - No active profile set, falling back to 1 default profile: "default" traceID= 
+2023-06-21 07:32:22 - o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' traceID= 
+2023-06-21 07:32:22 - o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' traceID= 
+2023-06-21 07:32:22 - o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms traceID= 
+2023-06-21 07:32:22 - o.s.s.p.owner.VisitControllerTests - Started VisitControllerTests in 0.939 seconds (process running for 61.073) traceID= 
+2023-06-21 07:32:23 - o.s.s.p.s.CrashControllerIntegrationTests - Starting CrashControllerIntegrationTests using Java 17.0.7 with PID 12496 (started by root in /home/ubuntu/Tryingagain/spring-petclinic) traceID= 
+2023-06-21 07:32:23 - o.s.s.p.s.CrashControllerIntegrationTests - No active profile set, falling back to 1 default profile: "default" traceID= 
+2023-06-21 07:32:24 - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 0 (http) traceID= 
+2023-06-21 07:32:24 - o.a.catalina.core.StandardService - Starting service [Tomcat] traceID= 
+2023-06-21 07:32:24 - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8] traceID= 
+2023-06-21 07:32:25 - o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext traceID= 
+2023-06-21 07:32:25 - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1832 ms traceID= 
+2023-06-21 07:32:29 - o.s.b.a.e.web.EndpointLinksResolver - Exposing 0 endpoint(s) beneath base path '/actuator' traceID= 
+2023-06-21 07:32:29 - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 40063 (http) with context path '' traceID= 
+2023-06-21 07:32:29 - o.s.s.p.s.CrashControllerIntegrationTests - Started CrashControllerIntegrationTests in 6.339 seconds (process running for 67.845) traceID= 
+2023-06-21 07:32:29 - o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet' traceID= 
+2023-06-21 07:32:29 - o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet' traceID= 
+2023-06-21 07:32:29 - o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms traceID= 
+2023-06-21 07:32:29 - o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.RuntimeException: Expected: controller used to showcase what happens when an exception is thrown] with root cause traceID= 
+java.lang.RuntimeException: Expected: controller used to showcase what happens when an exception is thrown
+	at org.springframework.samples.petclinic.system.CrashController.triggerException(CrashController.java:33)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:676)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-06-21 07:32:30 - o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.RuntimeException: Expected: controller used to showcase what happens when an exception is thrown] with root cause traceID= 
+java.lang.RuntimeException: Expected: controller used to showcase what happens when an exception is thrown
+	at org.springframework.samples.petclinic.system.CrashController.triggerException(CrashController.java:33)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:676)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-06-21 07:32:30 - o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [org.springframework.samples.petclinic.vet.VetControllerTests]: VetControllerTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration. traceID= 
+2023-06-21 07:32:30 - o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration org.springframework.samples.petclinic.PetClinicApplication for test class org.springframework.samples.petclinic.vet.VetControllerTests traceID= 
+2023-06-21 07:32:30 - o.s.s.p.vet.VetControllerTests - Starting VetControllerTests using Java 17.0.7 with PID 12496 (started by root in /home/ubuntu/Tryingagain/spring-petclinic) traceID= 
+2023-06-21 07:32:30 - o.s.s.p.vet.VetControllerTests - No active profile set, falling back to 1 default profile: "default" traceID= 
+2023-06-21 07:32:31 - o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' traceID= 
+2023-06-21 07:32:31 - o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' traceID= 
+2023-06-21 07:32:31 - o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms traceID= 
+2023-06-21 07:32:31 - o.s.s.p.vet.VetControllerTests - Started VetControllerTests in 0.859 seconds (process running for 69.57) traceID= 
+2023-06-21 07:32:31 - o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [org.springframework.samples.petclinic.PetClinicIntegrationTests]: PetClinicIntegrationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration. traceID= 
+2023-06-21 07:32:31 - o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration org.springframework.samples.petclinic.PetClinicApplication for test class org.springframework.samples.petclinic.PetClinicIntegrationTests traceID= 
+2023-06-21 07:32:31 - o.s.s.p.PetClinicIntegrationTests - Starting PetClinicIntegrationTests using Java 17.0.7 with PID 12496 (started by root in /home/ubuntu/Tryingagain/spring-petclinic) traceID= 
+2023-06-21 07:32:31 - o.s.s.p.PetClinicIntegrationTests - No active profile set, falling back to 1 default profile: "default" traceID= 
+2023-06-21 07:32:32 - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode. traceID= 
+2023-06-21 07:32:32 - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 20 ms. Found 2 JPA repository interfaces. traceID= 
+2023-06-21 07:32:33 - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 0 (http) traceID= 
+2023-06-21 07:32:33 - o.a.catalina.core.StandardService - Starting service [Tomcat] traceID= 
+2023-06-21 07:32:33 - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8] traceID= 
+2023-06-21 07:32:33 - o.a.c.c.C.[Tomcat-2].[localhost].[/] - Initializing Spring embedded WebApplicationContext traceID= 
+2023-06-21 07:32:33 - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1569 ms traceID= 
+2023-06-21 07:32:34 - com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting... traceID= 
+2023-06-21 07:32:34 - com.zaxxer.hikari.pool.HikariPool - HikariPool-3 - Added connection conn10: url=jdbc:h2:mem:c9997c22-d6ce-4c59-a193-fbd0e9753e81 user=SA traceID= 
+2023-06-21 07:32:34 - com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed. traceID= 
+2023-06-21 07:32:34 - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default] traceID= 
+2023-06-21 07:32:34 - o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy traceID= 
+2023-06-21 07:32:34 - o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer traceID= 
+2023-06-21 07:32:34 - org.hibernate.orm.dialect - HHH035001: Using dialect: org.hibernate.dialect.H2Dialect, version: 2.1.214 traceID= 
+2023-06-21 07:32:34 - o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy traceID= 
+2023-06-21 07:32:35 - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] traceID= 
+2023-06-21 07:32:35 - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default' traceID= 
+2023-06-21 07:32:40 - o.s.b.a.e.web.EndpointLinksResolver - Exposing 24 endpoint(s) beneath base path '/actuator' traceID= 
+2023-06-21 07:32:40 - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 38639 (http) with context path '' traceID= 
+2023-06-21 07:32:40 - o.s.s.p.PetClinicIntegrationTests - Started PetClinicIntegrationTests in 8.613 seconds (process running for 78.778) traceID= 
+2023-06-21 07:32:40 - o.a.c.c.C.[Tomcat-2].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet' traceID= 
+2023-06-21 07:32:40 - o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet' traceID= 
+2023-06-21 07:32:40 - o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms traceID= 
+2023-06-21 07:32:40 - o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [org.springframework.samples.petclinic.MySqlIntegrationTests]: MySqlIntegrationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration. traceID= 
+2023-06-21 07:32:41 - o.t.u.TestcontainersConfiguration - Attempted to read Testcontainers configuration file at file:/root/.testcontainers.properties but the file was not found. Exception message: FileNotFoundException: /root/.testcontainers.properties (No such file or directory) traceID= 
+2023-06-21 07:32:41 - o.t.utility.ImageNameSubstitutor - Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor') traceID= 
+2023-06-21 07:32:42 - o.t.d.DockerClientProviderStrategy - Found Docker environment with local Unix socket (unix:///var/run/docker.sock) traceID= 
+2023-06-21 07:32:42 - o.testcontainers.DockerClientFactory - Docker host IP address is localhost traceID= 
+2023-06-21 07:32:42 - o.testcontainers.DockerClientFactory - Connected to docker: 
+  Server Version: 24.0.2
+  API Version: 1.43
+  Operating System: Ubuntu 20.04.6 LTS
+  Total Memory: 3863 MB traceID= 
+2023-06-21 07:32:42 - tc.testcontainers/ryuk:0.4.0 - Pulling docker image: testcontainers/ryuk:0.4.0. Please be patient; this may take some time but only needs to be done once. traceID= 
+2023-06-21 07:32:42 - o.t.utility.RegistryAuthLocator - Failure when attempting to lookup auth config. Please ignore if you don't have images in an authenticated registry. Details: (dockerImageName: testcontainers/ryuk:latest, configFile: /root/.docker/config.json, configEnv: DOCKER_AUTH_CONFIG). Falling back to docker-java default behaviour. Exception message: Status 404: No config supplied. Checked in order: /root/.docker/config.json (file not found), DOCKER_AUTH_CONFIG (not set) traceID= 
+2023-06-21 07:32:43 - tc.testcontainers/ryuk:0.4.0 - Starting to pull image traceID= 
+2023-06-21 07:32:43 - tc.testcontainers/ryuk:0.4.0 - Pulling image layers:  0 pending,  0 downloaded,  0 extracted, (0 bytes/0 bytes) traceID= 
+2023-06-21 07:32:44 - tc.testcontainers/ryuk:0.4.0 - Pulling image layers:  2 pending,  1 downloaded,  0 extracted, (333 KB/? MB) traceID= 
+2023-06-21 07:32:44 - tc.testcontainers/ryuk:0.4.0 - Pulling image layers:  1 pending,  2 downloaded,  0 extracted, (333 KB/? MB) traceID= 
+2023-06-21 07:32:44 - tc.testcontainers/ryuk:0.4.0 - Pulling image layers:  0 pending,  3 downloaded,  0 extracted, (1 MB/5 MB) traceID= 
+2023-06-21 07:32:44 - tc.testcontainers/ryuk:0.4.0 - Pulling image layers:  0 pending,  3 downloaded,  1 extracted, (4 MB/5 MB) traceID= 
+2023-06-21 07:32:44 - tc.testcontainers/ryuk:0.4.0 - Pulling image layers:  0 pending,  3 downloaded,  2 extracted, (4 MB/5 MB) traceID= 
+2023-06-21 07:32:44 - tc.testcontainers/ryuk:0.4.0 - Pulling image layers:  0 pending,  3 downloaded,  3 extracted, (5 MB/5 MB) traceID= 
+2023-06-21 07:32:44 - tc.testcontainers/ryuk:0.4.0 - Pull complete. 3 layers, pulled in 1s (downloaded 5 MB at 5 MB/s) traceID= 
+2023-06-21 07:32:45 - tc.testcontainers/ryuk:0.4.0 - Creating container for image: testcontainers/ryuk:0.4.0 traceID= 
+2023-06-21 07:32:45 - tc.testcontainers/ryuk:0.4.0 - Container testcontainers/ryuk:0.4.0 is starting: 373b39f9ac1a4df5925999bd6e4859c3767e0f61d62c104f22dd49c0ee0133e5 traceID= 
+2023-06-21 07:32:46 - tc.testcontainers/ryuk:0.4.0 - Container testcontainers/ryuk:0.4.0 started in PT3.675912169S traceID= 
+2023-06-21 07:32:46 - o.t.utility.RyukResourceReaper - Ryuk started - will monitor and terminate Testcontainers containers on JVM exit traceID= 
+2023-06-21 07:32:46 - o.testcontainers.DockerClientFactory - Checking the system... traceID= 
+2023-06-21 07:32:46 - o.testcontainers.DockerClientFactory - ✔︎ Docker server version should be at least 1.6.0 traceID= 
+2023-06-21 07:32:46 - tc.mysql:5.7 - Pulling docker image: mysql:5.7. Please be patient; this may take some time but only needs to be done once. traceID= 
+2023-06-21 07:32:47 - tc.mysql:5.7 - Starting to pull image traceID= 
+2023-06-21 07:32:47 - tc.mysql:5.7 - Pulling image layers:  0 pending,  0 downloaded,  0 extracted, (0 bytes/0 bytes) traceID= 
+2023-06-21 07:32:47 - tc.mysql:5.7 - Pulling image layers: 10 pending,  1 downloaded,  0 extracted, (10 KB/? MB) traceID= 
+2023-06-21 07:32:48 - tc.mysql:5.7 - Pulling image layers:  9 pending,  2 downloaded,  0 extracted, (10 KB/? MB) traceID= 
+2023-06-21 07:32:48 - tc.mysql:5.7 - Pulling image layers:  8 pending,  3 downloaded,  0 extracted, (8 MB/? MB) traceID= 
+2023-06-21 07:32:48 - tc.mysql:5.7 - Pulling image layers:  7 pending,  4 downloaded,  0 extracted, (24 MB/? MB) traceID= 
+2023-06-21 07:32:48 - tc.mysql:5.7 - Pulling image layers:  6 pending,  5 downloaded,  0 extracted, (24 MB/? MB) traceID= 
+2023-06-21 07:32:48 - tc.mysql:5.7 - Pulling image layers:  5 pending,  6 downloaded,  0 extracted, (43 MB/? MB) traceID= 
+2023-06-21 07:32:48 - tc.mysql:5.7 - Pulling image layers:  4 pending,  7 downloaded,  0 extracted, (48 MB/? MB) traceID= 
+2023-06-21 07:32:49 - tc.mysql:5.7 - Pulling image layers:  3 pending,  8 downloaded,  0 extracted, (50 MB/? MB) traceID= 
+2023-06-21 07:32:49 - tc.mysql:5.7 - Pulling image layers:  2 pending,  9 downloaded,  0 extracted, (70 MB/? MB) traceID= 
+2023-06-21 07:32:50 - tc.mysql:5.7 - Pulling image layers:  1 pending, 10 downloaded,  0 extracted, (92 MB/? MB) traceID= 
+2023-06-21 07:32:52 - tc.mysql:5.7 - Pulling image layers:  0 pending, 11 downloaded,  0 extracted, (152 MB/161 MB) traceID= 
+2023-06-21 07:32:56 - tc.mysql:5.7 - Pulling image layers:  0 pending, 11 downloaded,  1 extracted, (154 MB/161 MB) traceID= 
+2023-06-21 07:32:56 - tc.mysql:5.7 - Pulling image layers:  0 pending, 11 downloaded,  2 extracted, (154 MB/161 MB) traceID= 
+2023-06-21 07:32:56 - tc.mysql:5.7 - Pulling image layers:  0 pending, 11 downloaded,  3 extracted, (155 MB/161 MB) traceID= 
+2023-06-21 07:32:56 - tc.mysql:5.7 - Pulling image layers:  0 pending, 11 downloaded,  4 extracted, (157 MB/161 MB) traceID= 
+2023-06-21 07:32:56 - tc.mysql:5.7 - Pulling image layers:  0 pending, 11 downloaded,  5 extracted, (157 MB/161 MB) traceID= 
+2023-06-21 07:32:56 - tc.mysql:5.7 - Pulling image layers:  0 pending, 11 downloaded,  6 extracted, (157 MB/161 MB) traceID= 
+2023-06-21 07:32:59 - tc.mysql:5.7 - Pulling image layers:  0 pending, 11 downloaded,  7 extracted, (160 MB/161 MB) traceID= 
+2023-06-21 07:32:59 - tc.mysql:5.7 - Pulling image layers:  0 pending, 11 downloaded,  8 extracted, (160 MB/161 MB) traceID= 
+2023-06-21 07:33:12 - tc.mysql:5.7 - Pulling image layers:  0 pending, 11 downloaded,  9 extracted, (161 MB/161 MB) traceID= 
+2023-06-21 07:33:12 - tc.mysql:5.7 - Pulling image layers:  0 pending, 11 downloaded, 10 extracted, (161 MB/161 MB) traceID= 
+2023-06-21 07:33:12 - tc.mysql:5.7 - Pulling image layers:  0 pending, 11 downloaded, 11 extracted, (161 MB/161 MB) traceID= 
+2023-06-21 07:33:12 - tc.mysql:5.7 - Pull complete. 11 layers, pulled in 24s (downloaded 161 MB at 6 MB/s) traceID= 
+2023-06-21 07:33:12 - o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration org.springframework.samples.petclinic.PetClinicApplication for test class org.springframework.samples.petclinic.MySqlIntegrationTests traceID= 
+2023-06-21 07:33:12 - tc.mysql:5.7 - Creating container for image: mysql:5.7 traceID= 
+2023-06-21 07:33:13 - tc.mysql:5.7 - Container mysql:5.7 is starting: ba5c8afa87c695e4dd49fb8945531fbf3917c541b5ffaa80ffe96e287ffd6033 traceID= 
+2023-06-21 07:33:13 - tc.mysql:5.7 - Waiting for database connection to become available at jdbc:mysql://localhost:32769/test using query 'SELECT 1' traceID= 
+2023-06-21 07:33:26 - tc.mysql:5.7 - Container mysql:5.7 started in PT14.210822445S traceID= 
+2023-06-21 07:33:26 - tc.mysql:5.7 - Container is started (JDBC URL: jdbc:mysql://localhost:32769/test) traceID= 
+2023-06-21 07:33:26 - o.s.s.p.MySqlIntegrationTests - Starting MySqlIntegrationTests using Java 17.0.7 with PID 12496 (started by root in /home/ubuntu/Tryingagain/spring-petclinic) traceID= 
+2023-06-21 07:33:26 - o.s.s.p.MySqlIntegrationTests - The following 1 profile is active: "mysql" traceID= 
+2023-06-21 07:33:27 - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode. traceID= 
+2023-06-21 07:33:27 - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 24 ms. Found 2 JPA repository interfaces. traceID= 
+2023-06-21 07:33:27 - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 0 (http) traceID= 
+2023-06-21 07:33:27 - o.a.catalina.core.StandardService - Starting service [Tomcat] traceID= 
+2023-06-21 07:33:27 - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8] traceID= 
+2023-06-21 07:33:27 - o.a.c.c.C.[Tomcat-3].[localhost].[/] - Initializing Spring embedded WebApplicationContext traceID= 
+2023-06-21 07:33:27 - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1128 ms traceID= 
+2023-06-21 07:33:28 - com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Starting... traceID= 
+2023-06-21 07:33:28 - com.zaxxer.hikari.pool.HikariPool - HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@734f69fe traceID= 
+2023-06-21 07:33:28 - com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Start completed. traceID= 
+2023-06-21 07:33:29 - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default] traceID= 
+2023-06-21 07:33:29 - o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy traceID= 
+2023-06-21 07:33:29 - o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer traceID= 
+2023-06-21 07:33:29 - org.hibernate.orm.dialect - HHH035001: Using dialect: org.hibernate.dialect.MySQLDialect, version: 5.7.42 traceID= 
+2023-06-21 07:33:29 - o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy traceID= 
+2023-06-21 07:33:30 - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] traceID= 
+2023-06-21 07:33:30 - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default' traceID= 
+2023-06-21 07:33:30 - tc.mysql:5.7 - Creating container for image: mysql:5.7 traceID= 
+2023-06-21 07:33:30 - tc.mysql:5.7 - Container mysql:5.7 is starting: 477197d299c6970299207bdb23de62a09c8c842e0bde9ba9e2b4d4d54da99530 traceID= 
+2023-06-21 07:33:31 - tc.mysql:5.7 - Waiting for database connection to become available at jdbc:mysql://localhost:32770/test using query 'SELECT 1' traceID= 
+2023-06-21 07:33:42 - tc.mysql:5.7 - Container mysql:5.7 started in PT12.660599968S traceID= 
+2023-06-21 07:33:42 - tc.mysql:5.7 - Container is started (JDBC URL: jdbc:mysql://localhost:32770/test) traceID= 
+2023-06-21 07:33:44 - o.s.b.a.e.web.EndpointLinksResolver - Exposing 24 endpoint(s) beneath base path '/actuator' traceID= 
+2023-06-21 07:33:44 - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 38163 (http) with context path '' traceID= 
+2023-06-21 07:33:44 - o.s.s.p.MySqlIntegrationTests - Started MySqlIntegrationTests in 17.966 seconds (process running for 142.843) traceID= 
+2023-06-21 07:33:44 - o.a.c.c.C.[Tomcat-3].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet' traceID= 
+2023-06-21 07:33:44 - o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet' traceID= 
+2023-06-21 07:33:44 - o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms traceID= 
+2023-06-21 07:33:45 - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default' traceID= 
+2023-06-21 07:33:45 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated... traceID= 
+2023-06-21 07:33:45 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed. traceID= 
+2023-06-21 07:33:45 - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default' traceID= 
+2023-06-21 07:33:45 - com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated... traceID= 
+2023-06-21 07:33:45 - com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed. traceID= 
+2023-06-21 07:33:45 - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default' traceID= 
+2023-06-21 07:33:45 - com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown initiated... traceID= 
+2023-06-21 07:33:45 - com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown completed. traceID= 
+2023-06-21 07:33:45 - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default' traceID= 
+2023-06-21 07:33:45 - com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown initiated... traceID= 
+2023-06-21 07:33:45 - com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown completed. traceID= 
+2023-06-21 08:07:50 - o.s.s.petclinic.PetClinicApplication - Starting PetClinicApplication v3.1.0-SNAPSHOT using Java 17.0.7 with PID 22967 (/home/ubuntu/Tryingagain/spring-petclinic/target/spring-petclinic-3.1.0-SNAPSHOT.jar started by root in /home/ubuntu/Tryingagain/spring-petclinic) traceID= 
+2023-06-21 08:07:50 - o.s.s.petclinic.PetClinicApplication - No active profile set, falling back to 1 default profile: "default" traceID= 
+2023-06-21 08:07:53 - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode. traceID= 
+2023-06-21 08:07:53 - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 95 ms. Found 2 JPA repository interfaces. traceID= 
+2023-06-21 08:07:55 - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http) traceID= 
+2023-06-21 08:07:55 - o.a.catalina.core.StandardService - Starting service [Tomcat] traceID= 
+2023-06-21 08:07:55 - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8] traceID= 
+2023-06-21 08:07:55 - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext traceID= 
+2023-06-21 08:07:55 - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4847 ms traceID= 
+2023-06-21 08:07:57 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting... traceID= 
+2023-06-21 08:07:57 - com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:9556e12f-eb74-4117-a25b-9449af4a0519 user=SA traceID= 
+2023-06-21 08:07:57 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed. traceID= 
+2023-06-21 08:07:57 - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default] traceID= 
+2023-06-21 08:07:57 - org.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.2.Final traceID= 
+2023-06-21 08:07:57 - org.hibernate.cfg.Environment - HHH000406: Using bytecode reflection optimizer traceID= 
+2023-06-21 08:07:58 - o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy traceID= 
+2023-06-21 08:07:58 - o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer traceID= 
+2023-06-21 08:07:58 - org.hibernate.orm.dialect - HHH035001: Using dialect: org.hibernate.dialect.H2Dialect, version: 2.1.214 traceID= 
+2023-06-21 08:07:58 - o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy traceID= 
+2023-06-21 08:08:00 - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] traceID= 
+2023-06-21 08:08:00 - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default' traceID= 
+2023-06-21 08:08:00 - o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used. traceID= 
+2023-06-21 08:08:05 - o.s.b.a.e.web.EndpointLinksResolver - Exposing 25 endpoint(s) beneath base path '/actuator' traceID= 
+2023-06-21 08:08:05 - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '' traceID= 
+2023-06-21 08:08:05 - o.s.s.petclinic.PetClinicApplication - Started PetClinicApplication in 16.398 seconds (process running for 17.736) traceID= 
+2023-06-21 08:08:11 - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet' traceID= 
+2023-06-21 08:08:11 - o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet' traceID= 
+2023-06-21 08:08:11 - o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms traceID= 
+2023-06-21 08:16:57 - o.s.s.petclinic.PetClinicApplication - Starting PetClinicApplication v3.1.0-SNAPSHOT using Java 17.0.7 with PID 27109 (/home/ubuntu/Tryingagain/spring-petclinic/target/spring-petclinic-3.1.0-SNAPSHOT.jar started by root in /home/ubuntu/Tryingagain/spring-petclinic) traceID= 
+2023-06-21 08:16:57 - o.s.s.petclinic.PetClinicApplication - No active profile set, falling back to 1 default profile: "default" traceID= 
+2023-06-21 08:17:00 - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode. traceID= 
+2023-06-21 08:17:00 - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 100 ms. Found 2 JPA repository interfaces. traceID= 
+2023-06-21 08:17:02 - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http) traceID= 
+2023-06-21 08:17:02 - o.a.catalina.core.StandardService - Starting service [Tomcat] traceID= 
+2023-06-21 08:17:02 - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8] traceID= 
+2023-06-21 08:17:03 - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext traceID= 
+2023-06-21 08:17:03 - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 5256 ms traceID= 
+2023-06-21 08:17:04 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting... traceID= 
+2023-06-21 08:17:05 - com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:f1b49bde-0db2-4d6b-97a7-191190c226fa user=SA traceID= 
+2023-06-21 08:17:05 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed. traceID= 
+2023-06-21 08:17:05 - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default] traceID= 
+2023-06-21 08:17:05 - org.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.2.Final traceID= 
+2023-06-21 08:17:05 - org.hibernate.cfg.Environment - HHH000406: Using bytecode reflection optimizer traceID= 
+2023-06-21 08:17:05 - o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy traceID= 
+2023-06-21 08:17:05 - o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer traceID= 
+2023-06-21 08:17:06 - org.hibernate.orm.dialect - HHH035001: Using dialect: org.hibernate.dialect.H2Dialect, version: 2.1.214 traceID= 
+2023-06-21 08:17:06 - o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy traceID= 
+2023-06-21 08:17:08 - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] traceID= 
+2023-06-21 08:17:08 - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default' traceID= 
+2023-06-21 08:17:08 - o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used. traceID= 
+2023-06-21 08:17:13 - o.s.b.a.e.web.EndpointLinksResolver - Exposing 25 endpoint(s) beneath base path '/actuator' traceID= 
+2023-06-21 08:17:13 - o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop' traceID= 
+2023-06-21 08:17:14 - z.r.AsyncReporter$BoundedAsyncReporter - Timed out waiting for in-flight spans to send traceID= 
+2023-06-21 08:17:14 - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default' traceID= 
+2023-06-21 08:17:14 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated... traceID= 
+2023-06-21 08:17:14 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed. traceID= 
+2023-06-21 08:17:14 - i.o.sdk.trace.SdkTracerProvider - Calling shutdown() multiple times. traceID= 
+2023-06-21 08:17:14 - i.o.e.zipkin.ZipkinSpanExporter - Calling shutdown() multiple times. traceID= 
+2023-06-21 08:17:14 - o.a.catalina.core.StandardService - Stopping service [Tomcat] traceID= 
+2023-06-21 08:17:14 - o.a.c.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [BatchSpanProcessor_WorkerThread-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.7/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.7/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.7/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.7/java.util.concurrent.ArrayBlockingQueue.poll(ArrayBlockingQueue.java:435)
+ io.opentelemetry.sdk.trace.export.BatchSpanProcessor$Worker.run(BatchSpanProcessor.java:252)
+ java.base@17.0.7/java.lang.Thread.run(Thread.java:833) traceID= 
+2023-06-21 08:17:14 - o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled. traceID= 
+2023-06-21 08:17:14 - o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+ traceID= 

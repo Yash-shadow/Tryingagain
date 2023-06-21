@@ -61,7 +61,7 @@ metrics_generator:
     collection_interval: 5s
     external_labels:
       source: tempo
-      group: 'hello-observability'
+      group: 'app'
   storage:
     path: /tmp/tempo/generator/wal
     remote_write:

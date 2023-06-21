@@ -1,1 +1,2 @@
-positions: {}
+positions:
+  /tmp/access_log.log: "3316"
