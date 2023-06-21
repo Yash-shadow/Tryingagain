@@ -107,7 +107,7 @@ services:
         agent:
             image: grafana/agent:latest
             container_name: agent
-            network_mode: host
+            #network_mode: host
             volumes:
                 # Agent configuration
                 - ./config/agent.yaml:/etc/agent-config/agent.yaml
